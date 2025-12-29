@@ -1,0 +1,66 @@
+/* Authentication Pages Styles */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.auth-card h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.auth-card h2 {
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 24px;
+  }
+
+  .auth-card h1 {
+    font-size: 24px;
+  }
+
+  .auth-card h2 {
+    font-size: 20px;
+  }
+}
+
