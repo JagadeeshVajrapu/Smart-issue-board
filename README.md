@@ -8,13 +8,13 @@ Ans: I used a single Firestore collection called `issues`, where each document r
 
 
 3. Explain how you handled similar issues.
-  When a user creates a new issue, the application checks the existing issue titles to see if a similar issue already exists. If a possible match is found, the user is shown a warning message before creating the issue. The user can then decide whether to continue or cancel. This approach helps reduce duplicate issues while keeping the logic simple and practical, without over-engineering the solution.
+Ans:  When a user creates a new issue, the application checks the existing issue titles to see if a similar issue already exists. If a possible match is found, the user is shown a warning message before creating the issue. The user can then decide whether to continue or cancel. This approach helps reduce duplicate issues while keeping the logic simple and practical, without over-engineering the solution.
 
 
 4. Mention what was confusing or challenging
-  One of the confusing parts was deciding how to handle similar issues because the assignment allowed flexibility and did not define a single correct approach. Setting up Firebase Authentication and Firestore rules correctly also required careful attention. Additionally, handling some Windows-specific Git issues during setup was a challenging but valuable learning experience.
+Ans:  One of the confusing parts was deciding how to handle similar issues because the assignment allowed flexibility and did not define a single correct approach. Setting up Firebase Authentication and Firestore rules correctly also required careful attention. Additionally, handling some Windows-specific Git issues during setup was a challenging but valuable learning experience.
 
 
 5. Mention what you would improve next based on this
-  If I had more time, I would improve the similarity detection logic to be more accurate, add pagination for handling a large number of issues, and introduce role-based access such as admin and user roles. I would also enhance the UI and add real-time updates using Firestore to make the application more interactive.
+Ans:  If I had more time, I would improve the similarity detection logic to be more accurate, add pagination for handling a large number of issues, and introduce role-based access such as admin and user roles. I would also enhance the UI and add real-time updates using Firestore to make the application more interactive.
 
