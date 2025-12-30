@@ -1,5 +1,3 @@
-UserName: JagadeeshVajrapu
-Password: Jaga@292512
 
 Assignment Explanation
 
